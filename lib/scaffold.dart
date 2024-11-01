@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-void main() => runApp(const MyApp());
+// void main() => runApp(MyApp());//Todo: hanya di munculkan ketika mau di run saja
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
