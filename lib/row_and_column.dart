@@ -26,21 +26,21 @@ class FirstScreen extends StatelessWidget {
       appBar: AppBar(
         title: const Text('First Screen'),
       ),
-      body: Center(
+      body: const Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-              children: const <Widget>[
+              children: <Widget>[
                 Icon(Icons.share),
                 Icon(Icons.thumb_up),
                 Icon(Icons.thumb_down),
               ],
             ),
-            const SizedBox(height: 20), // Jarak antara Row dan Column berikutnya
+            SizedBox(height: 20), // Jarak antara Row dan Column berikutnya
             Column(
-              children: const <Widget>[
+              children: <Widget>[
                 Text(
                   'Sebuah Judul',
                   style: TextStyle(fontSize: 32, fontWeight: FontWeight.bold),
